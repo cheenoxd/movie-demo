@@ -1,6 +1,6 @@
 import React from "react";
 import BookCard from './BookCard';
-import { Book, BookListProps} from "../types";
+import { BookListProps} from "../types";
 
 const BookList: React.FC<BookListProps> = ({ books, onDeleteBook, onViewBookDetails }) => {
     if (books.length === 0) {

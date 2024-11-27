@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import BookForm from './components/BookForm';
 import BookList from './components/BookList';
-import './globals.css';
 
 
 interface Book {

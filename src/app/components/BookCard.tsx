@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
-import { useState } from "react";
-import { Book, BookCardProps} from "../types";
+import { BookCardProps} from "../types";
 
 const BookCard: React.FC<BookCardProps> = ({ book, onDelete, onViewDetails }) => {
     return (
