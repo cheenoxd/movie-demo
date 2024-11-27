@@ -2,16 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import BookForm from './components/BookForm';
 import BookList from './components/BookList';
-
-
-interface Book {
-  id: string;
-  title: string;
-  author: string;
-  description: string;
-  price: number;
-  coverImage?: string;
-}
+import { Book } from "../types";
 
 const Page: React.FC = () => {
   const [books, setBooks] = useState<Book[]>([]);
